@@ -31,7 +31,7 @@ public void getEmployeeInput() {
     if(age < 16 || age > 66 && Name< value.lenght(3) || Name > value.lenght(25) && pps != value.lenght(11) && gender != man || women|| non binary){
         throw new IllegalArgumentException("Invalid Age: Age must be over 16 and less than 66.");
     }
-                get
+
     System.out.println("Enter age:");
     if(myage < 16 || myage > 66) {
         System.out.println("you Enterd" + myage);
